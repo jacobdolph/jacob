@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Coffee Finder",
+        "projectUrl": "https://jordan-hanson.github.io/GroupProject/",
+        "repoUrl": "https://github.com/jordan-hanson/GroupProject",
+        "image": "https://i.imgur.com/GessrcX.png",
+        "description": "The Coffee Finder app took your geo-location and used a third party api called ARCGIS api to locate coffee shops near you. My role was to create and implement the api calls to find the coffee shops and coordinate that information with mapquest api to filter and display the five closest coffee shops to your location.",
+        "tech": "JavaScript - Ajax - Postman"
+    },
+    {
+        "id": 2,
+        "name": "Budget Tracker",
+        "projectUrl": "https://progressive-budget-tracker.herokuapp.com/",
+        "repoUrl": "https://github.com/jacobdolph/progressive-budget-tracker",
+        "image": "https://i.imgur.com/zmTqYEl.png",
+        "description": "The Budget app allows users to deposit or withdraw expenses whether they are online or offline. When online I used mongoDb to update deposits and withdrawals, and when offline I used indexed Db."
+    },
+    {
+        "id": 3,
+        "name": "Fitness Tracker",
+        "projectUrl": "https://stormy-everglades-49849.herokuapp.com/?id=5e88b2d99f2ca2001709a706",
+        "repoUrl": "https://github.com/jacobdolph/gitbuff-academy",
+        "image": "https://i.imgur.com/eBOdQfo.png",
+        "description": "The fitness tracker was the first app I really implemented the use of MongoDb. I was able to separate the inputs of the types of workouts into the same model to update the database. The other cool thing about this app was the use of Chart.js. there are api calls that filters different typs of information based on the type, length, or difficulty of the workouts and creates a pie, bar or donut chart."
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "projectUrl": "https://github.com/jacobdolph/The-Incredible-Note-Taker",
+        "repoUrl": " https://the-incredible-note-taker.herokuapp.com/",
+        "image": "https://i.imgur.com/ToNA9Hz.png",
+        "description": "This application was the first to really utilize CRUD operations. In this application I really only CRUD to a Json object. The application allows the user to give a note a title and a message. Once the user saves the note they can update the note or delete it. as long as the note is in the json object the application will display the note for the user to read."
+    },
+    {
+        "id": 5,
+        "name": "Employee Directory",
+        "projectUrl": "https://github.com/jacobdolph/employee-directory",
+        "repoUrl": "https://jacobdolph.github.io/employee-directory/",
+        "image": "https://i.imgur.com/atOp96z.png",
+        "description": "The employee directory is an application using react and lifecycle for components. Mainly through the use of componentdidmount. the application also allows the user to filter the displayed employees by department, as well as sorts the components displaying the employee."
+    },
+    {
+        "id": 6,
+        "name": "Daily Planner",
+        "projectUrl": "https://jacobdolph.github.io/05-daily-planner-homework/",
+        "repoUrl": "https://github.com/jacobdolph/05-daily-planner-homework",
+        "image": "https://i.imgur.com/MTlqx51.png",
+        "description": "Daily Planner is a basic application that uses the moment library and depending on the time of day it is the application will highlight the current hour in red, display the hours yet to come in green and highlight the hours past in grey. At any given time the user may create a plan for a certain hour or update that plan, just as long as the hour has not passed."
+    }
+]

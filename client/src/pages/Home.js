@@ -1,5 +1,6 @@
 import React from "react";
-
+import Navbar from '../components/Navbar'
+import { Row, Container } from '../components/Grid'
 
 
 function Home() {
@@ -35,7 +36,14 @@ function Home() {
 
 
     return (
-        <div>Hello World</div>
+        <Container>
+            <Navbar
+                portfolio={toPortfolio}
+                about={toAbout}
+                tech={toTech}
+                home={toHome}
+            />
+        </Container>
     );
 };
 
