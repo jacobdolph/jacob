@@ -50,7 +50,12 @@ function Home() {
                 tech={toTech}
                 home={toHome}
             />
-            <Navmobile />
+            <Navmobile
+                portfolio={toPortfolio}
+                about={toAbout}
+                tech={toTech}
+                home={toHome}
+            />
             <SectionWrapper>
                 <Row>
                     <Container container>
