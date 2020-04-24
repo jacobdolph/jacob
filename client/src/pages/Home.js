@@ -15,7 +15,7 @@ function Home() {
     function toPortfolio(e) {
         e.preventDefault();
         document.getElementById('portfolio').scrollIntoView({
-            block: "center",
+            block: "start",
             behavior: "smooth"
         })
     }
