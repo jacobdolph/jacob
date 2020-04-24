@@ -15,17 +15,11 @@ function Home() {
     function toPortfolio(e) {
         e.preventDefault();
         document.getElementById('portfolio').scrollIntoView({
-            block: "start",
-            behavior: "smooth"
-        })
-    }
-    function toAbout(e) {
-        e.preventDefault();
-        document.getElementById('about').scrollIntoView({
             block: "center",
             behavior: "smooth"
         })
     }
+
     function toTech(e) {
         e.preventDefault();
         document.getElementById('tech').scrollIntoView({
@@ -46,13 +40,11 @@ function Home() {
         <Container  >
             <Navbar
                 portfolio={toPortfolio}
-                about={toAbout}
                 tech={toTech}
                 home={toHome}
             />
             <Navmobile
                 portfolio={toPortfolio}
-                about={toAbout}
                 tech={toTech}
                 home={toHome}
             />
@@ -65,11 +57,12 @@ function Home() {
                 </Row>
             </SectionWrapper>
             <SectionWrapper>
-
-                <Row>
-                    <PortfolioTitle />
-                    <Mapout />
-                </Row>
+                <Container >
+                    <Row>
+                        <PortfolioTitle />
+                        <Mapout />
+                    </Row>
+                </Container>
             </SectionWrapper>
             <SectionWrapper>
 

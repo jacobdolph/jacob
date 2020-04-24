@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export function Container({ container, children }) {
-    return <div className={container ? "container" : ""}>{children}</div>;
+export function Container({ container, children, id }) {
+    return <div id={id} className={container ? "container" : ""}>{children}</div>;
 }
 
 // This Row component lets us use a bootstrap row without having to think about class names
