@@ -3,9 +3,9 @@ import React from 'react';
 
 function Card(props) {
 
-
     return (
-        <div className="col s12 m6" id={props.id} style={{ padding: '0' }} >
+
+        <div className="col s12 m6 item" id={props.id} style={{ padding: '0' }} >
 
             <div className="card" style={{ border: 'solid thin ', margin: '0 1rem 3rem 1rem' }}>
                 <div className="card-image">
@@ -27,6 +27,7 @@ function Card(props) {
                 </div>
             </div>
         </div>
+
 
     )
 }

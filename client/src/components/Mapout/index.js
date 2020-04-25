@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import portfolio from '../../portfolio.json'
 import Card from '../Card'
 import Wrapper from '../Wrapper';
