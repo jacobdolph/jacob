@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Coffee Finder",
-        "projectUrl": "https://jordan-hanson.github.io/GroupProject/",
-        "repoUrl": "https://jacobdolph.github.io/The-Coffee-Finder/",
+        "projectUrl": "https://jacobdolph.github.io/The-Coffee-Finder/",
+        "repoUrl": "https://github.com/jacobdolph/The-Coffee-Finder",
         "image": "https://i.imgur.com/ofPVBVW.png",
         "description": "The Coffee Finder app took your geo-location and used a third party api called ARCGIS api to locate coffee shops near you. My role was to create and implement the api calls to find the coffee shops and coordinate that information with mapquest api to filter and display the five closest coffee shops to your location.",
         "tech": "JavaScript - Ajax - Postman"
