@@ -27,6 +27,7 @@ export class Navbar extends Component {
                             <li><a href='https://linkedin.com/in/jacob-dolph-508a82bb' rel="noopener noreferrer" target='_blank' className='white-text'>LinkedIn</a></li>
                             <li><a href='https://github.com/jacobdolph' rel="noopener noreferrer" target='_blank' className='white-text'>Github</a></li>
                             <li><a id='resume' href='https://drive.google.com/file/d/1UNzogXdogaSg7oqvkZSs9z56ZCWf-Jpq/view?usp=sharing' rel="noopener noreferrer" target='_blank' className='white-text'>Resume</a></li>
+                            <li><a id='resume' href='mailto:jacob.dolph702@gmail.com' rel="noopener noreferrer" target='_blank' className='white-text'>Email</a></li>
                         </ul>
                     </div>
                 </nav>
