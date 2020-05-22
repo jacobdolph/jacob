@@ -5,7 +5,8 @@
         "projectUrl": "https://www.letsgigit.events",
         "repoUrl": "https://github.com/dawson-hamilton/devDivas",
         "image": "https://i.imgur.com/H3i1jbx.png",
-        "description": "Gigit is a third party application that lets average people get top notch local talent for their event. My role was to build the database, learn Auth-0 and implement google social connections, generate the ssl certificate as well as connecting the custome domain."
+        "description": "Gigit is a third party application that lets average people get top notch local talent for their event. My role was to build the database, learn Auth-0 and implement google social connections, generate the ssl certificate as well as connecting the custome domain.",
+        "tech": "JavaScript - React - Node - Auth0 - Google Auth - MongoDB - Mongoose - Axios - Express - Postman"
     },
     {
         "id": 2,
