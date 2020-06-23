@@ -13,16 +13,16 @@
         "name": "Coffee Finder",
         "projectUrl": "https://jacobdolph.github.io/The-Coffee-Finder/",
         "repoUrl": "https://github.com/jacobdolph/The-Coffee-Finder",
-        "image": "https://i.imgur.com/cZQHZFv.png",
+        "image": "https://i.imgur.com/sVKHrXf.png",
         "description": "The Coffee Finder app took your geo-location and used a third party api called ARCGIS api to locate coffee shops near you. My role was to create and implement the api calls to find the coffee shops and coordinate that information with mapquest api to filter and display the five closest coffee shops to your location.",
         "tech": "JavaScript - Ajax - Postman"
     },
     {
         "id": 3,
-        "name": "Budget Tracker",
-        "projectUrl": "https://progressive-budget-tracker.herokuapp.com/",
-        "repoUrl": "https://github.com/jacobdolph/progressive-budget-tracker",
-        "image": "https://i.imgur.com/zmTqYEl.png",
+        "name": "Weather Dashboard",
+        "projectUrl": "hhttps://jacobdolph.github.io/weather-dashboard/",
+        "repoUrl": "https://github.com/jacobdolph/weather-dashboard",
+        "image": "https://github.com/jacobdolph/weather-dashboard/raw/master/assets/images/weather-dashboard-desktop.png",
         "description": "The Budget app allows users to deposit or withdraw expenses whether they are online or offline. When online I used mongoDb to update deposits and withdrawals, and when offline I used indexed Db."
     },
     {
