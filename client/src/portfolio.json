@@ -23,7 +23,8 @@
         "projectUrl": "hhttps://jacobdolph.github.io/weather-dashboard/",
         "repoUrl": "https://github.com/jacobdolph/weather-dashboard",
         "image": "https://github.com/jacobdolph/weather-dashboard/raw/master/assets/images/weather-dashboard-desktop.png",
-        "description": "The Budget app allows users to deposit or withdraw expenses whether they are online or offline. When online I used mongoDb to update deposits and withdrawals, and when offline I used indexed Db."
+        "description": "The Weaher app utilizes multiple ajax calls to gather information on current location, searched locations, and zipcode to find coffee shops and maps with directions to them.",
+        "tech": "JavaScript - Ajax - Postman"
     },
     {
         "id": 4,
