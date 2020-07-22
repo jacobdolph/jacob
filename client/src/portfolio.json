@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "E-Commerce",
+        "projectUrl": "https://big-clothing.herokuapp.com/",
+        "repoUrl": "https://github.com/jacobdolph/big-clothing",
+        "image": "https://github.com/jacobdolph/big-clothing/raw/master/src/assets/images/big-clothing-homepage.png",
+        "description": "E-Commerce application that utilizes the react/redux framework as well as Strip for payments and firebase for authentication",
+        "tech": " JavaScript - React - Redux - Firebase - Stripe - Local Storage - SCSS"
+    },
+    {
+        "id": 2,
         "name": "GigIt",
         "projectUrl": "https://www.letsgigit.events",
         "repoUrl": "https://github.com/dawson-hamilton/devDivas",
@@ -9,7 +18,7 @@
         "tech": "JavaScript - React - Node - Auth0 - Google Auth - MongoDB - Mongoose - Axios - Express - Postman"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Coffee Finder",
         "projectUrl": "https://jacobdolph.github.io/The-Coffee-Finder/",
         "repoUrl": "https://github.com/jacobdolph/The-Coffee-Finder",
@@ -18,7 +27,7 @@
         "tech": "JavaScript - Ajax - Postman"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Weather Dashboard",
         "projectUrl": "hhttps://jacobdolph.github.io/weather-dashboard/",
         "repoUrl": "https://github.com/jacobdolph/weather-dashboard",
@@ -27,7 +36,7 @@
         "tech": "JavaScript - Ajax - Postman"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Fitness Tracker",
         "projectUrl": "https://stormy-everglades-49849.herokuapp.com/?id=5e88b2d99f2ca2001709a706",
         "repoUrl": "https://github.com/jacobdolph/gitbuff-academy",
