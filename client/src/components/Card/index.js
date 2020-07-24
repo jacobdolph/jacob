@@ -5,11 +5,11 @@ function Card(props) {
 
     return (
 
-        <div className="col s12 m6 item" id={props.id} style={{ padding: '0' }} >
+        <div className="col s12 m6 item" id={props.id} style={{ padding: '0', height: "610px" }} >
 
-            <div className="card" style={{ border: 'solid thin ', margin: '0 1rem 3rem 1rem' }}>
+            <div className="card" style={{ border: 'solid thin ', margin: '0 1rem 3rem 1rem', height: "90%" }}>
                 <div className="card-image">
-                    <img src={props.img} alt='application image' style={{ height: "175px", overflow: "hidden" }} />
+                    <img src={props.img} alt='application image' style={{ height: "100%", overflow: "hidden" }} />
                 </div>
                 <div className="card-stacked" style={{ padding: '1rem 0 0 2rem' }}>
                     <span className="card-title activator grey-text text-darken-2" style={{ padding: '0 0 0 0' }} >{props.title}<i className="material-icons right">more_vert</i></span>
