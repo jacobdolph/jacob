@@ -8,7 +8,7 @@ const Portfolio = () => {
         <Container  >
             <div className='center' style={{ backgroundColor: 'white', height: '100%' }}>
                 <div>
-                    <h1 className='flow-text' style={{ margin: '0rem 0 0rem 0', fontSize: "300%", letterSpacing: '.2rem' }}>Web Developer</h1>
+                    <h1 className='flow-text' style={{ margin: '0rem 0 0rem 0', fontSize: "300%", letterSpacing: '.2rem' }}>Full Stack Web Developer</h1>
                 </div>
             </div>
         </Container >

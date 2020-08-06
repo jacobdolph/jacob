@@ -51,7 +51,6 @@ function Home() {
 
             <Row>
                 <Container container>
-                    <Header />
                     <WebDev />
                 </Container>
             </Row>
