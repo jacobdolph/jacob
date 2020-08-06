@@ -48,29 +48,29 @@ function Home() {
                 tech={toTech}
                 home={toHome}
             />
-            <SectionWrapper>
-                <Row>
-                    <Container container>
-                        <Header />
-                        <WebDev />
-                    </Container>
-                </Row>
-            </SectionWrapper>
-            <SectionWrapper>
-                <Container >
-                    <Row>
-                        <PortfolioTitle />
-                        <Mapout />
-                    </Row>
-                </Container>
-            </SectionWrapper>
-            <SectionWrapper>
 
+            <Row>
+                <Container container>
+                    <Header />
+                    <WebDev />
+                </Container>
+            </Row>
+
+
+            <Container >
                 <Row>
-                    <TechTitle />
-                    <Tech />
+                    <PortfolioTitle />
+                    <Mapout />
                 </Row>
-            </SectionWrapper>
+            </Container>
+
+
+
+            <Row>
+                <TechTitle />
+                <Tech />
+            </Row>
+
 
 
         </Container >
