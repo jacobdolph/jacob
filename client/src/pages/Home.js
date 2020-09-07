@@ -3,12 +3,10 @@ import { Row, Container } from '../components/Grid'
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
-import Header from "../components/Header";
-import PortfolioTitle from "../components/PortfolioTitle";
 import Mapout from "../components/Mapout";
 import Tech from "../components/Tech";
-import TechTitle from "../components/TechTitle";
-import SectionWrapper from "../components/SectionWrapper";
+import Title from "../components/Title";
+import About from "../components/About";
 
 function Home() {
 
@@ -34,6 +32,13 @@ function Home() {
             behavior: "smooth"
         })
     }
+    function toAbout(e) {
+        e.preventDefault();
+        document.getElementById('about').scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
 
 
     return (
@@ -42,11 +47,13 @@ function Home() {
                 portfolio={toPortfolio}
                 tech={toTech}
                 home={toHome}
+                about={toAbout}
             />
             <Navmobile
                 portfolio={toPortfolio}
                 tech={toTech}
                 home={toHome}
+                about={toAbout}
             />
 
             <Row>
@@ -56,17 +63,18 @@ function Home() {
             </Row>
 
 
-            <Container >
-                <Row>
-                    <PortfolioTitle />
-                    <Mapout />
-                </Row>
-            </Container>
+            <Row>
+                <About />
+            </Row>
+            <Row>
+                <Mapout />
+            </Row>
+
 
 
 
             <Row>
-                <TechTitle />
+                <Title title='Tech' />
                 <Tech />
             </Row>
 

@@ -7,7 +7,7 @@ function Card(props) {
 
         <div className="col s12 m6 item" id={props.id} style={{ padding: '0', height: "610px" }} >
 
-            <div className="card" style={{ border: 'solid thin ', margin: '0 1rem 3rem 1rem', height: "90%" }}>
+            <div className="card z-depth-0" style={{ margin: '0 1rem 3rem 1rem', height: "90%" }}>
                 <div className="card-image">
                     <img src={props.img} alt='application image' style={{ height: "100%", overflow: "hidden" }} />
                 </div>

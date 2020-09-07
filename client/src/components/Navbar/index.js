@@ -20,6 +20,7 @@ export class Navbar extends Component {
                         <a href="/" data-target="mobile-demo" className="sidenav-trigger left"><i className="material-icons" style={{ color: 'white' }}>menu</i></a>
                         <ul id='nav-mobile' className="left hide-on-med-and-down" style={{ margin: '0rem' }} >
                             <li className='waves-effect '><Link to='/' onClick={this.props.home} className='white-text ' >Home</Link></li>
+                            <li className='waves-effect '><Link to='/' onClick={this.props.about} className='white-text ' >About</Link></li>
                             <li><Link to='/' onClick={this.props.portfolio} className='white-text open'>Portfolio</Link></li>
                             <li><Link to='/' onClick={this.props.tech} className='white-text'>Tech</Link></li>
                         </ul>

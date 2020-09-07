@@ -4,11 +4,13 @@ import Card from '../Card'
 import Wrapper from '../Wrapper';
 import { Container } from '../Grid';
 import './index.css'
+import Title from '../Title';
 function Mapout() {
 
     return (
         <Wrapper>
             <Container id="portfolio" container>
+                <Title title='Portfolio' />
                 {portfolio.map(portfolio => (
 
                     <Card
