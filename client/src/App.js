@@ -9,16 +9,18 @@ import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <Container fluid >
-      <Row>
-        <Sidenav />
-        <Col sm='12' md='12' lg='10'>
-          <Switch>
-            <Route exact path='/' component={Home} />
-          </Switch>
-        </Col>
-      </Row>
-    </Container>
+    <div>
+      <Container fluid >
+        <Row>
+          <Sidenav />
+          <Col sm='12' md='12' lg='10'>
+            <Switch>
+              <Route exact path='/' component={Home} />
+            </Switch>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

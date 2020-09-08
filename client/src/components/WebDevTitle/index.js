@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from '../Grid'
+import Container from 'react-bootstrap/Container';
 
 
 const Portfolio = () => {

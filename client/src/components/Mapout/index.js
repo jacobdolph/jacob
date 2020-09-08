@@ -2,7 +2,8 @@ import React from 'react';
 import portfolio from '../../portfolio.json'
 import Card from '../Card'
 import Wrapper from '../Wrapper';
-import { Container } from '../Grid';
+
+import Container from 'react-bootstrap/Container'
 import './index.css'
 import Title from '../Title';
 
@@ -10,7 +11,7 @@ function Mapout() {
 
     return (
         <Wrapper>
-            <Container id="portfolio" container>
+            <Container id="portfolio">
                 <Title title='Portfolio' />
                 {portfolio.map(portfolio => (
 

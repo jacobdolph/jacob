@@ -1,6 +1,4 @@
 import React from 'react';
-
-import { Img } from '../Grid'
 function Header() {
     return (
         <div className='center' id='home'>

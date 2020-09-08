@@ -42,13 +42,13 @@ function Home() {
 
     return (
         <div className='homepage'>
-            <Container fluid >
-                <WebDev />
-                <About />
-                <Mapout />
-                <Title title='Tech' />
-                <Tech />
-            </Container >
+
+            <WebDev />
+            <About />
+            <Mapout />
+            <Title title='Tech' />
+            <Tech />
+
         </div>
     );
 };
