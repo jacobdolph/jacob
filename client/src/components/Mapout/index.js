@@ -5,6 +5,7 @@ import Wrapper from '../Wrapper';
 import { Container } from '../Grid';
 import './index.css'
 import Title from '../Title';
+
 function Mapout() {
 
     return (
