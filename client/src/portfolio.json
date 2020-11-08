@@ -1,12 +1,13 @@
 [
     {
         "id": 1,
-        "name": "E-Commerce",
+        "name": "Big Clothing",
         "projectUrl": "https://big-clothing.herokuapp.com/",
         "repoUrl": "https://github.com/jacobdolph/big-clothing",
         "image": "https://i.imgur.com/lbDeN5R.png",
-        "description": "E-Commerce application that utilizes the react/redux framework as well as Strip for payments and firebase for authentication",
-        "tech": " JavaScript - React - Redux - Firebase - Stripe - Local Storage - SCSS"
+        "description": "E-Commerce application that utilizes the react/redux framework for state management, google social connection for authentication, as well as Stripe for payments and firebase for authentication",
+        "tech": " JavaScript - React - Redux - Firebase - Stripe - Local Storage - SCSS",
+        "icon": "money"
     },
     {
         "id": 2,
@@ -14,8 +15,9 @@
         "projectUrl": "https://www.letsgigit.events",
         "repoUrl": "https://github.com/dawson-hamilton/devDivas",
         "image": "https://i.imgur.com/5j7ID5b.png",
-        "description": "Gigit is a third party application that lets average people get top notch local talent for their event. My role was to build the database, learn Auth-0 and implement google social connections, generate the ssl certificate as well as connecting the custome domain.",
-        "tech": "JavaScript - React - Node - Auth0 - Google Auth - MongoDB - Mongoose - Axios - Express - Postman"
+        "description": "Gigit is a third party application that lets average people get top notch local talent for their event. My role was to build the database, models and controllers,  implement Auth-0 with google social connections, generate the ssl certificate as well as connecting the custome domain.",
+        "tech": "JavaScript - React - Node - Auth0 - Google Auth - MongoDB - Mongoose - Axios - Express - Postman",
+        "icon": "lightning"
     },
     {
         "id": 3,
@@ -23,17 +25,19 @@
         "projectUrl": "https://jacobdolph.github.io/The-Coffee-Finder/",
         "repoUrl": "https://github.com/jacobdolph/The-Coffee-Finder",
         "image": "https://i.imgur.com/NIlgnDH.png",
-        "description": "The Coffee Finder app took your geo-location and used a third party api called ARCGIS api to locate coffee shops near you. My role was to create and implement the api calls to find the coffee shops and coordinate that information with mapquest api to filter and display the five closest coffee shops to your location.",
-        "tech": "JavaScript - Ajax - Postman"
+        "description": "The Coffee Finder app takes your geo-location and uses a third party api called ARCGIS api to locate coffee shops near you. My role was to create and implement the api calls to find the coffee shops and coordinate that information with mapquest api to filter and display the five closest coffee shops to your location.",
+        "tech": "JavaScript - Ajax - Postman",
+        "icon": "coffee"
     },
     {
         "id": 4,
         "name": "Weather Dashboard",
-        "projectUrl": "hhttps://jacobdolph.github.io/weather-dashboard/",
+        "projectUrl": "https://jacobdolph.github.io/weather-dashboard/",
         "repoUrl": "https://github.com/jacobdolph/weather-dashboard",
         "image": "https://i.imgur.com/zHvuqon.png",
         "description": "The Weaher app utilizes multiple ajax calls to gather information on current location, searched locations, and zipcode to find coffee shops and maps with directions to them.",
-        "tech": "JavaScript - Ajax - Postman"
+        "tech": "JavaScript - Ajax - Postman",
+        "icon": "cloud"
     },
     {
         "id": 5,
@@ -41,6 +45,8 @@
         "projectUrl": "https://stormy-everglades-49849.herokuapp.com/?id=5e88b2d99f2ca2001709a706",
         "repoUrl": "https://github.com/jacobdolph/gitbuff-academy",
         "image": "https://i.imgur.com/AxEnaub.png",
-        "description": "The fitness tracker was the first app I really implemented the use of MongoDb. I was able to separate the inputs of the types of workouts into the same model to update the database. The other cool thing about this app was the use of Chart.js. there are api calls that filters different typs of information based on the type, length, or difficulty of the workouts and creates a pie, bar or donut chart."
+        "description": "The fitness tracker was the first app I really implemented the use of MongoDb. I was able to separate the inputs of the types of workouts into the same model to update the database. The other cool thing about this app was the use of Chart.js. there are api calls that filters different typs of information based on the type, length, or difficulty of the workouts and creates a pie, bar or donut chart.",
+        "tech": "JavaScript - Node - MongoDB - Express - mongoose - morgan",
+        "icon": "dashboard"
     }
 ]

@@ -7,15 +7,10 @@ import Col from 'react-bootstrap/Col';
 
 function Sidenav() {
 
-
-
-
-
-
     return (
         <>
             <IconContext.Provider value={{ color: '#fff' }}>
-                <Col bg='dark' sm='12' md='12' lg='2' className='left-side-bar'>
+                <Col  sm='12' md='12' lg='2' className='left-side-bar'>
                     <ul className='nav-menu-items'>
                         {SidebarData.map((item, index) => {
                             return (
